@@ -17,7 +17,7 @@
 
 ## Health Check
 - Page load:
-![alt text](image1.png)
+![alt text](artifacts/image1.png)
 - API check: first 5–10 lines from `curl -s http://127.0.0.1:3000/rest/products | head`
 ```
 <html>
@@ -61,3 +61,15 @@ Keep-Alive: timeout=5
 2) JWT in the local storage. The token can be stolen during an XSS attack.
 3) DOM XSS. A malicious script can be inserted into the search form.
 
+## GitHub Community
+### Importance of Repository Stars
+
+Quality Signal: Star count helps new users assess project reliability and activity.
+
+Community Support: Stars are a form of appreciation and support for maintainers, showing their work is valuable to the community.
+
+### Importance of Following Developers
+
+Networking: I can see what projects other course participants are working on, creating opportunities for collaboration and knowledge sharing.
+
+Learning by Example: Observing how experienced developers work teaches best practices, new tools, and problem-solving approaches.
