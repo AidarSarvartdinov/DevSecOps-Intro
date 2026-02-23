@@ -125,9 +125,9 @@ $ git commit -m "docs: add lab3 submission"
 ✓ No secrets detected in non-excluded files; proceeding with commit.
 ```
 
-**Result:** ✓ Commit proceeded successfully — no secrets detected.
+**Result:** Commit proceeded successfully — no secrets detected.
 
-### 2.3 Analysis: How Automated Secret Scanning Prevents Security Incidents
+### Analysis: How Automated Secret Scanning Prevents Security Incidents
 
 Secrets accidentally committed to version control are one of the most common causes of security breaches. Once a secret is pushed, it becomes part of the permanent history (even if "deleted" in a subsequent commit) and may be exposed to anyone with repository access.
 
