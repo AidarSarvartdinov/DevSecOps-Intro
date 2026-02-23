@@ -105,7 +105,7 @@ $ git commit -m "test: add file with secret"
 Fix or unstage the offending files and try again.
 ```
 
-**Result:** ✖ Commit was blocked — both TruffleHog and Gitleaks detected the fake AWS credentials.
+**Result:** Commit was blocked — both TruffleHog and Gitleaks detected the fake AWS credentials.
 
 #### Test 2: Successful Commit (No Secrets)
 
