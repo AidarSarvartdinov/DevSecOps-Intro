@@ -92,3 +92,4 @@ The license scan highlighted several potentially restrictive licenses depending 
 
 ### Integration Considerations
 For CI/CD automation, **Trivy** is generally easier to drop into a GitHub Action or GitLab CI pipeline due to its single-binary architecture. The **Syft + Grype** combination requires chaining the artifacts (SBOM generation -> artifact storage -> SCA scanning), but provides a clean separation of concerns for enterprise environments where the SecOps team might scan the SBOM independently of the build pipeline.
+
