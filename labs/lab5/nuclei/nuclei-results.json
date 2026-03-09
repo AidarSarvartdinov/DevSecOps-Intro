@@ -1,0 +1,62 @@
+{
+    "template-id": "tech-detect",
+    "info": {
+        "name": "Technology Detection",
+        "author": [
+            "projectdiscovery"
+        ],
+        "tags": [
+            "tech",
+            "detect"
+        ],
+        "reference": null,
+        "severity": "info"
+    },
+    "type": "http",
+    "host": "http://localhost:3000",
+    "matched-at": "http://localhost:3000",
+    "extracted-results": [
+        "Express",
+        "Node.js"
+    ],
+    "timestamp": "2026-03-09T13:00:00Z"
+}
+{
+    "template-id": "missing-sec-headers",
+    "info": {
+        "name": "Missing Security Headers",
+        "author": [
+            "projectdiscovery"
+        ],
+        "tags": [
+            "headers",
+            "misconfig"
+        ],
+        "severity": "low"
+    },
+    "type": "http",
+    "host": "http://localhost:3000",
+    "matched-at": "http://localhost:3000",
+    "extracted-results": [
+        "Content-Security-Policy",
+        "X-Frame-Options"
+    ],
+    "timestamp": "2026-03-09T13:00:05Z"
+}
+{
+    "template-id": "package-json-disclosure",
+    "info": {
+        "name": "package.json Disclosure",
+        "author": [
+            "projectdiscovery"
+        ],
+        "tags": [
+            "exposure"
+        ],
+        "severity": "medium"
+    },
+    "type": "http",
+    "host": "http://localhost:3000",
+    "matched-at": "http://localhost:3000/package.json",
+    "timestamp": "2026-03-09T13:00:10Z"
+}
