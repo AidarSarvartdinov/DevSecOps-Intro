@@ -1,0 +1,5 @@
+﻿1. Hardcoded JWT Secret (High) - config/default.yml:14
+2. SQL Injection (High) - routes/login.js:25
+3. Insecure Randomness (Medium) - routes/profileImageUrlUpload.js:51
+4. Cross-Site Scripting (Medium) - frontend/src/app/search-result/search-result.component.ts:68
+5. Path Traversal (High) - routes/fileServer.js:33
